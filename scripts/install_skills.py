@@ -31,7 +31,6 @@ This tool is optional. You can also just `cp -r skills/genomics ~/.claude/skills
 from __future__ import annotations
 
 import argparse
-import os
 import shutil
 import sys
 from pathlib import Path
@@ -190,7 +189,7 @@ def main(argv: list[str] | None = None) -> int:
         target = install_skill(d, dest_root)
         print(f"  ✓ {d.name:24s} -> {target}")
 
-    print(f"\nDone. Restart your editor / agent session to pick up the new skills.")
+    print("\nDone. Restart your editor / agent session to pick up the new skills.")
     if args.agent == "claude-code":
         print("Tip: run `claude` again in your project — Claude Code auto-discovers .claude/skills/.")
     if args.agent == "cursor":
