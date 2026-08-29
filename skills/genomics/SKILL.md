@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with pysam, cyvcf2, biopython, scikit-allel, pandas, numpy. System tools bwa, samtools, bcftools, FastQC, MultiQC, VEP or SnpEff, PLINK 2.0.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Biology & Genomics
 ---
 

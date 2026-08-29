@@ -1,4 +1,4 @@
-# Contributing to Scientific Agent Skills
+# Contributing to SciAgent Skills
 
 First, thank you. Scientific computing has a long tail of workflows, and the only way this library covers them all is if domain experts contribute the skills they actually use. Whether it's one typo fix or a whole new category, it's welcome.
 

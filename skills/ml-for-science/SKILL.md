@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with scikit-learn, pandas, numpy, matplotlib. Optional extras include imbalanced-learn, shap, sktime, darts, mlxtend, category_encoders.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Machine Learning & Statistics
 ---
 

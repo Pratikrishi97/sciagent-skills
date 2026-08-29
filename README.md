@@ -1,4 +1,4 @@
-# Scientific Agent Skills
+# SciAgent Skills
 
 > A curated collection of **40 open Agent Skills** that turn coding assistants — Cursor, Claude Code, OpenAI Codex, GitHub Copilot, Gemini CLI — into a stronger research partner for science and engineering work.
 
@@ -7,12 +7,12 @@
 [![Agent Skills Standard](https://img.shields.io/badge/Agent%20Skills-1.0-purple.svg)](https://agentskills.io)
 [![Agent Plugins](https://img.shields.io/badge/Agent%20Plugins-1.0-teal.svg)](https://agent-plugins.org)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB.svg)](https://www.python.org/)
-[![CI](https://img.shields.io/github/actions/workflow/status/Pratikrishi97/scientific-agent-skills/skills.yml?label=CI)](https://github.com/Pratikrishi97/scientific-agent-skills/actions)
+[![CI](https://img.shields.io/github/actions/workflow/status/Pratikrishi97/sciagent-skills/skills.yml?label=CI)](https://github.com/Pratikrishi97/sciagent-skills/actions)
 [![Contributions welcome](https://img.shields.io/badge/Contributions-welcome-ff69b4.svg)](./CONTRIBUTING.md)
 
 ---
 
-Whether you're calling variants, screening a compound library, training a deep model on microscopy, running a climate reanalysis on an HPC cluster, or drafting a grant — your AI coding assistant usually knows *a little* about your domain. **Scientific Agent Skills** gives it a deep, opinionated, copy-pasteable manual for the workflow you're actually doing, written by people who run these pipelines for a living.
+Whether you're calling variants, screening a compound library, training a deep model on microscopy, running a climate reanalysis on an HPC cluster, or drafting a grant — your AI coding assistant usually knows *a little* about your domain. **SciAgent Skills** gives it a deep, opinionated, copy-pasteable manual for the workflow you're actually doing, written by people who run these pipelines for a living.
 
 Each skill is a single `SKILL.md` file written to the open [Agent Skills](https://agentskills.io) specification. Drop it into `~/.claude/skills/`, `~/.agents/skills/`, `.cursor/rules/`, or upload it as a Codex bundle — and your assistant suddenly follows domain best practices instead of guessing.
 
@@ -45,7 +45,7 @@ Each skill is a single `SKILL.md` file written to the open [Agent Skills](https:
 
 Coding assistants are generalists. They write a Pandas `groupby` fine, but ask one to "run a GWAS" or "do a virtual screen against SARS-CoV-2 main protease" and you'll get something that *looks* right and quietly isn't — wrong reference assembly, inverted docking box, a CNN that leaks future data into training, a Cox model that violates proportional hazards. The fix isn't a bigger model; it's giving the one you already have the same domain checklist a senior PhD uses.
 
-**Scientific Agent Skills** is that checklist, as data:
+**SciAgent Skills** is that checklist, as data:
 
 - **Open standard.** Every skill is a plain `SKILL.md` with YAML frontmatter. No proprietary format, no walled garden. Works in any agent that supports the [Agent Skills](https://agentskills.io) or [Agent Plugins](https://agent-plugins.org) specs.
 - **Python-first, but prose.** Examples reference the canonical scientific Python libraries (BioPython, RDKit, PySCF, astropy, xarray, MONAI, PyTorch, Qiskit, ...). Skills are not runtime code — they are instructions an agent loads on demand.
@@ -77,9 +77,9 @@ Pick **one** of the four install methods. They all install the same skills; the 
 ### Option 1 — One-liner with the `skills` CLI (recommended)
 
 ```bash
-npx skills add Pratikrishi97/scientific-agent-skills          # user-level, cross-host (~/.agents/skills/)
-npx skills add Pratikrishi97/scientific-agent-skills --agent claude-code
-npx skills add Pratikrishi97/scientific-agent-skills --agent cursor --skill genomics
+npx skills add Pratikrishi97/sciagent-skills          # user-level, cross-host (~/.agents/skills/)
+npx skills add Pratikrishi97/sciagent-skills --agent claude-code
+npx skills add Pratikrishi97/sciagent-skills --agent cursor --skill genomics
 ```
 
 ### Option 2 — Install as an Agent Plugins bundle
@@ -95,16 +95,16 @@ codex plugins install .
 ### Option 3 — GitHub CLI skill installer
 
 ```bash
-gh skill install Pratikrishi97/scientific-agent-skills                    # all skills
-gh skill install Pratikrishi97/scientific-agent-skills genomics           # one skill
-gh skill install Pratikrishi97/scientific-agent-skills --agent cursor
+gh skill install Pratikrishi97/sciagent-skills                    # all skills
+gh skill install Pratikrishi97/sciagent-skills genomics           # one skill
+gh skill install Pratikrishi97/sciagent-skills --agent cursor
 ```
 
 ### Option 4 — Plain copy (no tooling required)
 
 ```bash
-git clone https://github.com/Pratikrishi97/scientific-agent-skills.git
-cd scientific-agent-skills
+git clone https://github.com/Pratikrishi97/sciagent-skills.git
+cd sciagent-skills
 
 # install all skills for Claude Code (user-level)
 python scripts/install_skills.py --agent claude-code --all
@@ -218,7 +218,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with pysam, biopython, cyvcf2.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Biology & Genomics
 ---
 
@@ -334,7 +334,7 @@ python scripts/to_mdc.py --out .cursor/rules
 ```
 
 **A code snippet in a skill fails to run.**
-Skills ship *examples*, not pinned reproductions. Each snippet assumes the libraries in that skill's `compatibility` field are installed. Install them, then run. If a snippet is genuinely wrong, please [open an issue](https://github.com/Pratikrishi97/scientific-agent-skills/issues) — snippets are meant to be runnable.
+Skills ship *examples*, not pinned reproductions. Each snippet assumes the libraries in that skill's `compatibility` field are installed. Install them, then run. If a snippet is genuinely wrong, please [open an issue](https://github.com/Pratikrishi97/sciagent-skills/issues) — snippets are meant to be runnable.
 
 **Too many skills loaded into context.**
 You're on an older host that doesn't do progressive disclosure. Install only the categories you use:
@@ -388,7 +388,7 @@ CI (`.github/workflows/skills.yml`) runs the contract suite on every PR and on a
 - A `scripts/skill_scaffold.py` to bootstrap a new skill folder from the template.
 - Per-skill `scripts/` with self-tests where they add real value (e.g. a VCF sanitizer, a DICOM anonymizer).
 
-Vote on priorities or propose your own in [Discussions](https://github.com/Pratikrishi97/scientific-agent-skills/discussions).
+Vote on priorities or propose your own in [Discussions](https://github.com/Pratikrishi97/sciagent-skills/discussions).
 
 ## Citation
 
@@ -397,29 +397,29 @@ If this repo helps your research, please cite it:
 **BibTeX:**
 ```bibtex
 @misc{scientific_agent_skills,
-  title  = {Scientific Agent Skills: A curated collection of open Agent Skills for science and engineering},
-  author = {Scientific Agent Skills Contributors},
+  title  = {SciAgent Skills: A curated collection of open Agent Skills for science and engineering},
+  author = {SciAgent Skills Contributors},
   year   = {2025},
-  url    = {https://github.com/Pratikrishi97/scientific-agent-skills},
+  url    = {https://github.com/Pratikrishi97/sciagent-skills},
   note   = {version 1.0.0}
 }
 ```
 
 **APA:**
-> Scientific Agent Skills Contributors. (2025). *Scientific agent skills: A curated collection of open Agent Skills for science and engineering* (version 1.0.0). https://github.com/Pratikrishi97/scientific-agent-skills
+> SciAgent Skills Contributors. (2025). *Scientific agent skills: A curated collection of open Agent Skills for science and engineering* (version 1.0.0). https://github.com/Pratikrishi97/sciagent-skills
 
 **MLA:**
-> Scientific Agent Skills Contributors. "Scientific Agent Skills: A Curated Collection of Open Agent Skills for Science and Engineering." 2025, GitHub, version 1.0.0, github.com/Pratikrishi97/scientific-agent-skills.
+> SciAgent Skills Contributors. "SciAgent Skills: A Curated Collection of Open Agent Skills for Science and Engineering." 2025, GitHub, version 1.0.0, github.com/Pratikrishi97/sciagent-skills.
 
 ## License
 
-[MIT](./LICENSE) © Scientific Agent Skills Contributors. Individual skills may declare a different license in their `license:` frontmatter field; absent one, the repo-wide MIT license applies.
+[MIT](./LICENSE) © SciAgent Skills Contributors. Individual skills may declare a different license in their `license:` frontmatter field; absent one, the repo-wide MIT license applies.
 
 ## Star history
 
 <!-- star-history placeholders; replace Pratikrishi97 after rename -->
-<a href="https://star-history.com/#Pratikrishi97/scientific-agent-skills&Date">
- <img src="https://api.star-history.com/svg?repos=Pratikrishi97/scientific-agent-skills&type=Date" alt="Star History" width="500" />
+<a href="https://star-history.com/#Pratikrishi97/sciagent-skills&Date">
+ <img src="https://api.star-history.com/svg?repos=Pratikrishi97/sciagent-skills&type=Date" alt="Star History" width="500" />
 </a>
 
 ## Acknowledgments

@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with numpy, scipy, sympy, numba, dask, xarray, matplotlib. Optional extras include sparse, opt-einsum, joblib, pooch.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Machine Learning & Statistics
 ---
 

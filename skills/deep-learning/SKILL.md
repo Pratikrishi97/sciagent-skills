@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with PyTorch 2.1+ and CUDA-capable GPU recommended. Optional extras include accelerate, wandb, mlflow, jax, flax, tqdm.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Machine Learning & Statistics
 ---
 

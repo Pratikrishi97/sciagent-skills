@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with matplotlib, jinja2, pandoc, Quarto CLI 1.5+, and a TeX distribution for Beamer/PDF export. For web export (revealjs, Marp) Chromium is needed for PDF snapshots.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Knowledge & Communication
 ---
 

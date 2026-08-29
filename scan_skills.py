@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-scan_skills.py — structural contract scanner for the Scientific Agent Skills repo.
+scan_skills.py — structural contract scanner for the SciAgent Skills repo.
 
 This is the single source of truth for the Agent Skills contract in this repo.
 It validates that every skills/<name>/SKILL.md conforms to the open Agent
@@ -355,7 +355,7 @@ def render_tree(skills: list[Skill]) -> int:
     cats: dict[str, list[Skill]] = {}
     for s in skills:
         cats.setdefault(s.category, []).append(s)
-    print("scientific-agent-skills/")
+    print("sciagent-skills/")
     for cat in sorted(cats):
         print(f"├── {cat}/")
         items = sorted(cats[cat], key=lambda x: x.name)
@@ -394,7 +394,7 @@ def render_show(skills: list[Skill], name: str) -> int:
 
 def render_json(skills: list[Skill]) -> int:
     manifest = {
-        "schema": "scientific-agent-skills/manifest/v1",
+        "schema": "sciagent-skills/manifest/v1",
         "count": len(skills),
         "categories": sorted({s.category for s in skills}),
         "skills": [s.to_manifest() for s in sorted(skills, key=lambda x: (x.category, x.name))],

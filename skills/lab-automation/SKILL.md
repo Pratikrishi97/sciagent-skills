@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with opentrons, pandas, pyarrow, requests. Optional: labman, structlog, s3fs for cloud staging.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Lab & Automation
 ---
 

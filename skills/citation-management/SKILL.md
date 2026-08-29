@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with bibtexparser, pyzotero, habanero, citeproc-py, anystyle, requests. Zotero account and library ID + private API key for pyzotero; Crossref polite-pool email recommended.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Knowledge & Communication
 ---
 

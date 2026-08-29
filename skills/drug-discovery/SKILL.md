@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with rdkit, openbabel, vina, openmm, perses, scikit-learn. AutoDock Vina binary or meeko for ligand preparation.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Drug Discovery & Cheminformatics
 ---
 

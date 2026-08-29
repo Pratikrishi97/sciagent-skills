@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with pymatgen, mp-api, ase, matgl (MACE), chgnet. GPAW or VASP binary needed for periodic DFT. Materials Project API key required for mp-api access.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Chemistry & Materials
 ---
 

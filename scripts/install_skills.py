@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-install_skills.py — install Scientific Agent Skills into your coding assistant.
+install_skills.py — install SciAgent Skills into your coding assistant.
 
 The same `SKILL.md` files work across Claude Code, Cursor, OpenAI Codex,
 GitHub Copilot, and Gemini CLI — but each stores skills in a different place.
@@ -121,7 +121,7 @@ def install_skill(src_dir: Path, dest_root: Path) -> str:
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(
         prog="install_skills.py",
-        description="Install Scientific Agent Skills into your coding assistant.",
+        description="Install SciAgent Skills into your coding assistant.",
     )
     p.add_argument(
         "--agent",

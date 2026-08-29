@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with numpy, pandas, statsmodels, pyDOE2. Optional: dexpy, botorch, gpytorch for Bayesian optimization.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Lab & Automation
 ---
 

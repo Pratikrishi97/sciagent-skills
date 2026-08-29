@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with pyvisa, pyvisa-py, pymeasure, nidaqmx. Optional: pyserial, structlog, h5py for direct streaming.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Lab & Automation
 ---
 

@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with lifelines, statsmodels, pandas, numpy, causalinference, pyarrow. Optional: cdsic-submit-utils, omop-cli, fhir.resources for standards work; duckdb for large EHR extracts.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Clinical & Medical Research
 ---
 

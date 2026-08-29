@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with pydicom, simpleitk, monai, nibabel, numpy, torch. Optional: nnunetv2, presidio, flower for federated learning, OHIF/ORTHANC server for DICOMweb.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Clinical & Medical Research
 ---
 

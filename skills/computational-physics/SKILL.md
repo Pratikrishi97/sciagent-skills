@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with numpy, scipy, matplotlib, jax, jax-cosmo optional. For finite-element methods install fenics-dolfinx via conda-forge or docker. GPU strongly recommended for JAX workflows.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Physics & Astronomy
 ---
 

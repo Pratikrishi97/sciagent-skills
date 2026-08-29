@@ -23,7 +23,7 @@ That's a skill. Call it `nextflow-pipelines` (lowercase, hyphen-separated).
 ## 2. Scaffold the folder
 
 ```bash
-cd scientific-agent-skills
+cd sciagent-skills
 mkdir -p skills/nextflow-pipelines
 $EDITOR skills/nextflow-pipelines/SKILL.md
 ```

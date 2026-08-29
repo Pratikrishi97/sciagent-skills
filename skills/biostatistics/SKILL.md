@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with statsmodels, lifelines, scipy, numpy, pandas, matplotlib. Optional extras include pymc, arviz, pingouin, seaborn, biostat-design.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Machine Learning & Statistics
 ---
 

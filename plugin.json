@@ -1,17 +1,18 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "scientific-agent-skills",
-  "version": "1.0.0",
+  "name": "sciagent-skills",
+  "title": "SciAgent Skills",
+  "version": "1.1.0",
   "description": "A curated collection of open Agent Skills that turn coding assistants (Cursor, Claude Code, Codex, Copilot, Gemini) into stronger research assistants for science and engineering work — covering genomics, drug discovery, protein analysis, clinical research, medical imaging, machine learning, chemistry, physics, geospatial analysis, data visualization, lab automation, literature review, scientific writing, grant writing, and citation management.",
   "author": {
-    "name": "Scientific Agent Skills Contributors",
-    "url": "https://github.com/Pratikrishi97/scientific-agent-skills"
+    "name": "SciAgent Skills Contributors",
+    "url": "https://github.com/Pratikrishi97/sciagent-skills"
   },
   "license": "MIT",
-  "homepage": "https://github.com/Pratikrishi97/scientific-agent-skills",
+  "homepage": "https://github.com/Pratikrishi97/sciagent-skills",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Pratikrishi97/scientific-agent-skills.git"
+    "url": "https://github.com/Pratikrishi97/sciagent-skills.git"
   },
   "keywords": [
     "agent-skills",

@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with biopython, dendropy, ete3, scikit-allel, msprime, demes, numpy, pandas, scipy, matplotlib. System tools PAML (codeml, baseml), HyPhy, IQ-TREE or RAxML for ML tree search, MAFFT or MUSCLE for MSA.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Biology & Genomics
 ---
 

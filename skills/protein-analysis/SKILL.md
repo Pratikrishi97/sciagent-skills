@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with biopython, biotite, numpy, matplotlib. System tools PyMOL, DSSP (mkdssp), P2Rank, HDOCK, OpenMM. Optional: pdb-tools, pdb2pqr, mdtraj.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Biology & Genomics
 ---
 

@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with astropy, photutils, specutils, poliastro, yt, astroquery. NASA ADS API token and SIMBAD / TAP endpoints require network access. Some operations need HEASARC or IRSA archive downloads.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Physics & Astronomy
 ---
 

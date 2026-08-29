@@ -59,7 +59,7 @@ Skills ship *examples*, not pinned reproductions. Each snippet assumes the libra
 pip install pysam biopython cyvcf2
 ```
 
-If a snippet is genuinely wrong (the API has changed, a function name is off), please [open an issue](https://github.com/Pratikrishi97/scientific-agent-skills/issues) — snippets are meant to be runnable.
+If a snippet is genuinely wrong (the API has changed, a function name is off), please [open an issue](https://github.com/Pratikrishi97/sciagent-skills/issues) — snippets are meant to be runnable.
 
 ## Too many skills loaded into context
 
@@ -78,7 +78,7 @@ There's nothing to `pip install` here — the repo is a library of plain-text sk
 
 ```bash
 # wrong
-pip install scientific-agent-skills        # not a thing
+pip install sciagent-skills        # not a thing
 
 # right — install what a skill needs
 pip install scanpy anndata pydeseq2        # for the transcriptomics skill
@@ -136,5 +136,5 @@ The `description` is the only signal the agent has at activation time. If it act
 
 ## Still stuck
 
-- [Open an issue](https://github.com/Pratikrishi97/scientific-agent-skills/issues) with the exact command, the output, and the skill name.
-- [Start a discussion](https://github.com/Pratikrishi97/scientific-agent-skills/discussions) for "how do I..." questions.
+- [Open an issue](https://github.com/Pratikrishi97/sciagent-skills/issues) with the exact command, the output, and the skill name.
+- [Start a discussion](https://github.com/Pratikrishi97/sciagent-skills/discussions) for "how do I..." questions.

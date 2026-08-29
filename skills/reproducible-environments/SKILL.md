@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with conda or mamba; optional Docker, Apptainer, nix, uv, pip-tools.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Research Infrastructure
 ---
 

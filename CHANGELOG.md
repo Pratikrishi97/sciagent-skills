@@ -1,8 +1,22 @@
 # Changelog
 
-All notable changes to Scientific Agent Skills are documented here. The format
+All notable changes to SciAgent Skills are documented here. The format
 is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the
 project adheres to [Semantic Versioning](https://semver.org/).
+
+## [1.1.0] — 2025
+
+### Changed
+- **Renamed the repository** from `scientific-agent-skills` → `sciagent-skills`. The new name is shorter, brandable, and distinct while keeping the same "science + agent + skills" meaning. GitHub auto-redirects the old URL, so existing links keep working.
+- Rebranded the project's human-readable name from "Scientific Agent Skills" → "SciAgent Skills" across the README, AGENTS.md, CONTRIBUTING.md, SECURITY.md, CHANGELOG.md, plugin.json, pyproject.toml, and all 40 SKILL.md files.
+- Bumped `plugin.json` `version` to `1.1.0` and added a `title` field ("SciAgent Skills") for richer Agent Plugins manifests.
+
+### Migration notes
+- If you cloned the old URL, your remote will keep working (GitHub redirects), but you can update it with:
+  ```bash
+  git remote set-url origin https://github.com/Pratikrishi97/sciagent-skills.git
+  ```
+- If you installed skills with `npx skills add Pratikrishi97/scientific-agent-skills`, the redirect means it still works; for a clean install use `Pratikrishi97/sciagent-skills` instead.
 
 ## [1.0.0] — 2025
 

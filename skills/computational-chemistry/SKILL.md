@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with pyscf, ase, openmm, mdtraj, xtb-python optional. External binaries (Gaussian, ORCA, Psi4, VASP) require separate licenses and install paths.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Chemistry & Materials
 ---
 

@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with scanpy, anndata, numpy, pandas, scipy, matplotlib. System tools STAR, HISAT2, featureCounts, Salmon, kallisto, Cell Ranger. Optional pydeseq2, scvi-tools, harmonypy, bbknn.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Biology & Genomics
 ---
 

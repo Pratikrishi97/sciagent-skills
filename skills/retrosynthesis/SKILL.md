@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with rdkit, networkx, scipy, and one of: aizynthfinder (IBM), askcos-client, or a local USPTO template model. Optional: rxn4chemistry (IBM RXN service) for cloud-based route prediction.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Drug Discovery & Cheminformatics
 ---
 

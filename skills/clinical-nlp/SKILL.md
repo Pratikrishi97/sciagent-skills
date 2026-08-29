@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with spacy, scispacy, medspacy, scrubadub, presidio-analyzer, transformers, torch. Optional: medcat for UMLS concept normalization (requires UMLS license).
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Clinical & Medical Research
 ---
 

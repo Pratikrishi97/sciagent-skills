@@ -3,14 +3,14 @@ requires = ["hatchling>=1.21"]
 build-backend = "hatchling.build"
 
 [project]
-name = "scientific-agent-skills"
+name = "sciagent-skills"
 version = "1.0.0"
 description = "A curated collection of open Agent Skills that turn coding assistants into stronger research assistants for science and engineering work."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [
-    { name = "Scientific Agent Skills Contributors" }
+    { name = "SciAgent Skills Contributors" }
 ]
 keywords = [
     "agent-skills",
@@ -51,11 +51,11 @@ scanner = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Pratikrishi97/scientific-agent-skills"
-Documentation = "https://github.com/Pratikrishi97/scientific-agent-skills#readme"
-Repository = "https://github.com/Pratikrishi97/scientific-agent-skills"
-Issues = "https://github.com/Pratikrishi97/scientific-agent-skills/issues"
-Changelog = "https://github.com/Pratikrishi97/scientific-agent-skills/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/Pratikrishi97/sciagent-skills"
+Documentation = "https://github.com/Pratikrishi97/sciagent-skills#readme"
+Repository = "https://github.com/Pratikrishi97/sciagent-skills"
+Issues = "https://github.com/Pratikrishi97/sciagent-skills/issues"
+Changelog = "https://github.com/Pratikrishi97/sciagent-skills/blob/main/CHANGELOG.md"
 
 [tool.hatch.build.targets.wheel]
 packages = ["scripts"]

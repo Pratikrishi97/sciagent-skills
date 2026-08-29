@@ -1,10 +1,10 @@
-# Scientific Agent Skills — Agent Instructions
+# SciAgent Skills — Agent Instructions
 
 > This file is the cross-agent instruction manifest. Cursor, Codex, Gemini CLI,
 > and other agents that auto-load `AGENTS.md` will read this on session start.
 > Claude Code users: a thin `CLAUDE.md` pointer in this repo redirects here.
 
-You are working inside the **Scientific Agent Skills** repository — a curated
+You are working inside the **SciAgent Skills** repository — a curated
 collection of open Agent Skills (`SKILL.md` files) that help coding assistants
 act as stronger research partners for science and engineering work.
 
@@ -24,7 +24,7 @@ act as stronger research partners for science and engineering work.
 ## Repository layout
 
 ```
-scientific-agent-skills/
+sciagent-skills/
 ├── skills/                 # 40 skills, one folder each (flat)
 │   └── <skill-name>/
 │       └── SKILL.md        # required; YAML frontmatter + instructions

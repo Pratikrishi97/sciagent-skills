@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with requests, jinja2, pandoc, and a TeX distribution for PDF assembly. NIH/NSF submissions are done via grants.gov / Research.gov with institutional approval; this skill drafts and assembles materials locally.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Knowledge & Communication
 ---
 

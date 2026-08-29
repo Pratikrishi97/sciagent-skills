@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with scipy, numpy, pandas, pymare, geopandas. Optional: rpy2 for EpiNow2/epinow2 (R package); pymeta for meta-analysis; epiweeks for MMWR week handling.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Clinical & Medical Research
 ---
 

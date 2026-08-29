@@ -1,6 +1,6 @@
 # Security Policy
 
-Scientific Agent Skills is a library of plain-text `SKILL.md` instructions. The skills themselves are not executable code and run with whatever privileges your coding assistant already has. The security considerations are therefore about *what the skills tell the agent to do*, not about the repo running anything itself.
+SciAgent Skills is a library of plain-text `SKILL.md` instructions. The skills themselves are not executable code and run with whatever privileges your coding assistant already has. The security considerations are therefore about *what the skills tell the agent to do*, not about the repo running anything itself.
 
 ## Supported versions
 
@@ -14,7 +14,7 @@ We patch the latest `main` and cut patch releases for security-relevant fixes.
 
 **Do not open a public issue for security reports.**
 
-Email: `security@<Pratikrishi97>.dev` (replace with your real address) with the subject `scientific-agent-skills security report`. You will receive an acknowledgement within 72 hours. We coordinate disclosure and credit reporters in the release notes unless they prefer to remain anonymous.
+Email: `security@<Pratikrishi97>.dev` (replace with your real address) with the subject `sciagent-skills security report`. You will receive an acknowledgement within 72 hours. We coordinate disclosure and credit reporters in the release notes unless they prefer to remain anonymous.
 
 Please include:
 

@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with biopython, habanero, pyzotero, requests, pandas, networkx, matplotlib, asreview, pymeta. NCBI E-utilities require an email and an NCBI API key for higher rates.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Knowledge & Communication
 ---
 

@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with qiskit, qiskit-aer, pennylane, cirq, qutip. Optional packages include qiskit-ibm-runtime for real-hardware jobs which requires an IBM Quantum API token.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Physics & Astronomy
 ---
 

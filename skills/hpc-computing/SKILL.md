@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with dask-jobqueue, mpi4py. Optional: apptainer, dask, distributed, zarr. Requires access to a SLURM-based HPC cluster.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Research Infrastructure
 ---
 

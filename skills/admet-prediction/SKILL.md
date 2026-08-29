@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with rdkit, deepchem, chemprop, scikit-learn, pandas. Optional: therapeutics-data-commons (tdc) for benchmark endpoints; xgboost for tree boosting.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Drug Discovery & Cheminformatics
 ---
 

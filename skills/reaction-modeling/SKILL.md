@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with ase, scipy, cantera, rmg-py (optional). Gaussian, ORCA, or Psi4 binaries needed for high-level TS geometries. CHEMKIN format outputs readable by Cantera.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Chemistry & Materials
 ---
 

@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with xarray, netCDF4, numpy, scipy, cartopy, dask. Optional extras include xesmf, intake-esm, regionmask, cf-xarray, cmocean, extremes.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Geospatial & Earth Science
 ---
 

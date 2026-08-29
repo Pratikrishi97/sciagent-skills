@@ -13,7 +13,7 @@ How the repo is put together and why.
 ## Repo layout
 
 ```
-scientific-agent-skills/
+sciagent-skills/
 ├── skills/                 # 40 skills, flat (one folder each)
 │   └── <name>/
 │       ├── SKILL.md          # required: frontmatter + 10 standard sections

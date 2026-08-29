@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with snakemake, dvc, quarto. Optional: nextflow, singularity/apptainer, docker, zenodo_get.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Data & Visualization
 ---
 

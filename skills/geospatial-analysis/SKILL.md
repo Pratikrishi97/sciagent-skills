@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with geopandas, rasterio, pyproj, shapely, matplotlib, folium. Optional extras include rasterstats, osmnx, networkx, rtree, contextily, mapclassify.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Geospatial & Earth Science
 ---
 

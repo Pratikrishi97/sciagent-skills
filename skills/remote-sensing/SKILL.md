@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with rasterio, numpy, matplotlib, shapely. Optional extras include satpy, sentinelhub, pystac-client, stackstac, torchgeo, s2cloudless, rioxarray, planetary-computer.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Geospatial & Earth Science
 ---
 

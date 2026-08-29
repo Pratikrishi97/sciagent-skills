@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with pylatex, quarto CLI, pandoc, requests. A TeX distribution (TeX Live or MiKTeX) and the Quarto CLI are required for rendering. OSF, arXiv, and bioRxiv accounts with API tokens for submission automation.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Knowledge & Communication
 ---
 

@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with pandas, pyarrow, h5py, zarr, xarray, intake, frictionless, s3fs, fsspec.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Data & Visualization
 ---
 

@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Python 3.10+ with rdkit, openbabel-wheel, scikit-learn, umap-learn, tmap, tqdm. Optional: JPype1 + CDK for advanced reaction handling.
 metadata:
   version: "1.0.0"
-  skill-author: Scientific Agent Skills Contributors
+  skill-author: SciAgent Skills Contributors
   category: Drug Discovery & Cheminformatics
 ---
 
