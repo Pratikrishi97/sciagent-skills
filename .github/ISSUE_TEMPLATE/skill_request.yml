@@ -1,0 +1,60 @@
+name: New skill request
+description: Propose a new skill for the catalog
+title: "[skill request]: "
+labels: ["skill-request", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Proposing a new skill? Great. The clearer the scope, the faster it lands.
+  - type: input
+    id: name
+    attributes:
+      label: Proposed skill name
+      description: Lowercase, [a-z0-9-] only. Must match a future folder name.
+      placeholder: e.g. metabolomics, cryo-em, semiconductor-physics
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Category
+      description: Which existing category, or propose a new one.
+      placeholder: e.g. Biology & Genomics
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What does the skill do?
+      description: One paragraph, end to end.
+    validations:
+      required: true
+  - type: textarea
+    id: when
+    attributes:
+      label: When should an agent activate it?
+      description: Trigger keywords a researcher would type.
+      placeholder: "Use when the user mentions ..., ..., or asks for ..."
+    validations:
+      required: true
+  - type: input
+    id: canonical
+    attributes:
+      label: Canonical library
+      description: The one a senior researcher reaches for first.
+      placeholder: e.g. BioPython, RDKit, astropy
+    validations:
+      required: true
+  - type: textarea
+    id: draft
+    attributes:
+      label: Draft description (for the frontmatter)
+      description: A first cut at the `description:` value. We'll polish it together.
+  - type: checkboxes
+    id: willing
+    attributes:
+      label: Are you willing to author / co-author the PR?
+      options:
+        - label: Yes, I'll open the PR
+        - label: I can review but someone else should write it

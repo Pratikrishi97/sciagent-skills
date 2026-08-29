@@ -1,0 +1,51 @@
+name: Bug report
+description: Something in a skill is wrong or doesn't work
+title: "[bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug. A clear report helps us fix it fast.
+  - type: input
+    id: skill
+    attributes:
+      label: Skill
+      description: Which skill is affected? (run `python scan_skills.py --list` if unsure)
+      placeholder: e.g. genomics, transcriptomics, drug-discovery
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the bug.
+      placeholder: "The snippet under ## Core workflows calls a function that was removed in scanpy 1.10..."
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction
+      description: Minimal steps or code to reproduce.
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      description: Agent (Cursor/Claude Code/Codex/...), OS, library versions.
+      placeholder: "Claude Code 1.x, macOS 14, scanpy 1.10.2"
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Logs, screenshots, links.

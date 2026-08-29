@@ -1,0 +1,56 @@
+name: Skills contract
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    # weekly isolated sweep — catches drift in upstream libraries
+    - cron: "0 6 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate skills (contract)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install tooling
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml pytest
+
+      - name: Lint scan_skills.py
+        run: |
+          pip install ruff
+          ruff check scan_skills.py scripts/
+
+      - name: Enforce the Agent Skills contract
+        run: python scan_skills.py --validate
+
+      - name: Run the structural-contract suite
+        run: pytest tests/ -v
+
+      - name: Sanity-check the installer
+        run: python scripts/install_skills.py --paths
+
+      - name: Emit a JSON manifest artifact
+        run: |
+          python scan_skills.py --json > skills-manifest.json
+          echo "## Skill manifest" >> $GITHUB_STEP_SUMMARY
+          echo '```json' >> $GITHUB_STEP_SUMMARY
+          python scan_skills.py --json >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+
+      - name: Upload manifest
+        uses: actions/upload-artifact@v4
+        with:
+          name: skills-manifest
+          path: skills-manifest.json
