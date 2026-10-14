@@ -1,5 +1,21 @@
 # SciAgent Skills
 
+## Start with one workflow
+
+**For researchers and developers using AI coding assistants:** choose one relevant skill, inspect its assumptions and references, then test it against a small reproducible example.
+
+- [Browse the skill catalogue](#available-skills).
+- [Choose an installation method](#quick-start).
+- [Explore worked examples](#worked-examples).
+
+**What validation means:** the project's scanner and contract tests check the structure of skill documents. They do not certify scientific correctness or guarantee the quality of a model's output. Review generated analyses with domain expertise and reproducible execution.
+
+[Report a specific correction](https://github.com/Pratikrishi97/sciagent-skills/issues) with the skill name, the problematic instruction or example, and a reference or reproducible counterexample.
+
+Maintained by [Pratik Parida](https://github.com/Pratikrishi97) · [Product portfolio](https://pratik-parida.netlify.app/)
+
+---
+
 > A curated collection of **40 open Agent Skills** that turn coding assistants — Cursor, Claude Code, OpenAI Codex, GitHub Copilot, Gemini CLI — into a stronger research partner for science and engineering work.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
@@ -12,7 +28,7 @@
 
 ---
 
-Whether you're calling variants, screening a compound library, training a deep model on microscopy, running a climate reanalysis on an HPC cluster, or drafting a grant — your AI coding assistant usually knows *a little* about your domain. **SciAgent Skills** gives it a deep, opinionated, copy-pasteable manual for the workflow you're actually doing, written by people who run these pipelines for a living.
+Whether you're calling variants, screening a compound library, training a deep model on microscopy, running a climate reanalysis on an HPC cluster, or drafting a grant — your AI coding assistant usually knows *a little* about your domain. **SciAgent Skills** gives it a deep, opinionated, copy-pasteable manual for the workflow you're actually doing, with references and examples for domain review.
 
 Each skill is a single `SKILL.md` file written to the open [Agent Skills](https://agentskills.io) specification. Drop it into `~/.claude/skills/`, `~/.agents/skills/`, `.cursor/rules/`, or upload it as a Codex bundle — and your assistant suddenly follows domain best practices instead of guessing.
 
